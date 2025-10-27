@@ -7,7 +7,7 @@ import VideoList from "./components/VideoList";
 import VideoDetail from "./components/VideoDetail";
 import "./index.css";
 
-const API_KEY = "AIzaSyBWrZJUbv-afG319lmmllvOMEJAjEDy1hk";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 class App extends Component {
   constructor(props) {
